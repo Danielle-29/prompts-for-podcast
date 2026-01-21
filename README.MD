@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-    src="../podcast/foto 2"
+    src="../Podcast/foto 2"
     width="300"
 />
 </p>

@@ -15,7 +15,7 @@
 </p>
 
 <div align="center">
-    <audio src="output/Podcast - Episodio 1.MP3" controls title="Podcast"></audio>
+    <a href="output/Podcast - Episodio 1.MP3">▶️ Ouvir Episódio 2</a>
 </div>
 
 <h2>Episódio 2</h2>

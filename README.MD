@@ -18,6 +18,19 @@
     <audio src="output/Podcast - Episodio 1.MP3" controls title="Podcast"></audio>
 </div>
 
+<h2>Episódio 2</h2>
+
+<div style="display: flex; align-items: center; gap: 150px;">
+  <img
+    src="./assets/foto 1.jpeg"
+    style="width: 200px; height: 250px; border-radius: 40%; object-fit: cover;"
+  />
+
+  <audio src="output/Podcast - Episodio 2.MP3" controls title="Podcast"></audio>
+</div>
+
+<br>
+
 # Projeto Podcast Gerado por I.A.s
 
 

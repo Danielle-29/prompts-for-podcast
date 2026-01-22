@@ -15,7 +15,7 @@
 </p>
 
 <div align="center">
-    <a href="output/Podcast - Episodio 1.MP3">▶️ Ouvir Episódio 2</a>
+    🎧 [Ouvir Episódio 1](https://raw.githubusercontent.com/Danielle-29/prompts-for-podcast/main/output/Podcast%20-%20Episodio%201.MP3)
 </div>
 
 <h2>Episódio 2</h2>

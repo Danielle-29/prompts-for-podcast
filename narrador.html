@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Narrador - Teoria do Grande Surto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        
+        .container-prompt {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .botao-voltar {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: var(--accent-color);
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .botao-voltar:hover {
+            text-decoration: underline;
+        }
+
+        .caixa-prompt {
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            border-left: 6px solid var(--accent-color);
+            line-height: 1.6;
+        }
+
+        .caixa-prompt h2 {
+            margin-top: 0;
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        .texto-prompt {
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid #e9e9e7;
+            font-family: "Playwrite AU TAS";
+            font-size: 0.95rem;
+            color: #444;
+        }
+
+        .regras {
+            margin-top: 50px;
+        }
+
+        .regras-titulo {
+            font-weight: 300; 
+            font-size: 1rem;
+            letter-spacing: 1px;
+            color: #fc9b9b;
+        }
+
+        .regras-lista {
+            list-style: none;
+            padding: 0;
+            margin: 25px;
+        }
+
+        .regras-lista li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .regras-lista li::before {
+            content: "—";
+            margin-right: 10px;
+            color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<main class="container-prompt">
+    <a href="index.html" class="botao-voltar">← Voltar para o Início</a>
+
+    <div class="caixa-prompt">
+        <h2>🤖 Prompt: Narrador</h2>
+        <p>Este foi o comando utilizado para gerar o roteiro do podcast:</p>
+            
+        <div class="texto-prompt">
+           <p> 
+                Você é um roteirista de podcast, e vamos criar um roteiro de um podcast de tecnologia, focado em inicio de carreira na Tecnologia para com publico geral, 
+                porém sempre mais focado para mulheres cujo o nome é "Teoria do Grande Surto" e tem foco em dicas e novidades sobre como iniciar no mundo da tecnologia 
+                e o que está acontecendo no mercado.
+            </p>
+            <span class="regras-titulo">O formato do roteiro deve ser:</span> 
+            <ul class="regras-lista">
+                <li>Introdução</li>
+                <li>Curiosidade 1</li>
+                <li>Curiosidade 2</li>
+                <li>Finalização</li>
+            </ul>
+            <div class="regras">
+                <span class="regras-titulo">Regras</span> 
+                <ul class="regras-lista">
+                    <li>No bloco [INTRODUÇÃO] substitua por uma introdução iguais as introduções dos vídeos do canal 'ei nerd', como se fossem escritos pelo Peter Jordan</li>
+                    <li>No bloco [CURIOSIDADE 1] substitua por um resumo da minha vida pessoal</li>
+                    <li>No bloco [CURIOSIDADE 2] sobre um resumo da minha vida profissional, contando como foi fazer a transição de carreira para a área da tecnologia sendo mulher, mãe e com mais de 30 anos</li>
+                    <li>No bloco [FINALIZAÇÃO] substitua por uma despedida cool com o final 'Eu sou Danny e esse foi o Teoria do Grande Surto dessa semana'</li>
+                    <li>Use termos de fácil explicação</li>
+                    <li>O podcast vai ser apresentado somente por uma pessoa, chamada Danny</li>
+                    <li>O podcast deve ser curto</li>    
+                </ul>
+            </div>
+
+            <div class="regras">
+                <span class="regras-titulo">Regras Negativas</span>
+                <ul class="regras-lista">
+                    <li>Não use muitos termos técnicos</li>
+                    <li>Não ultrapasse 5 minutos de duração</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer>
+        <p>Teoria do Grande Surto - Danielle</p>
+    </footer>
+
+</body>
+</html>
